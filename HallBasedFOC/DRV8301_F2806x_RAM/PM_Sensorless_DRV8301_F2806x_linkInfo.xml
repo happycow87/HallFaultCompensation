@@ -2,7 +2,7 @@
 <link_info>
    <banner>TMS320C2000 Linker PC v20.2.1.LTS</banner>
    <copyright>Copyright (c) 1996-2018 Texas Instruments Incorporated</copyright>
-   <link_time>0x5fb1ed8f</link_time>
+   <link_time>0x5fb1ef02</link_time>
    <link_errors>0x0</link_errors>
    <output_file>PM_Sensorless_DRV8301_F2806x.out</output_file>
    <entry_point>
@@ -758,7 +758,7 @@
          <size>0x47</size>
          <input_file_ref idref="fl-b"/>
       </object_component>
-      <object_component id="oc-ae">
+      <object_component id="oc-af">
          <name>.cinit:_Page0_Str</name>
          <load_address>0xb055</load_address>
          <run_address>0xb055</run_address>
@@ -786,7 +786,7 @@
          <size>0x35</size>
          <input_file_ref idref="fl-b"/>
       </object_component>
-      <object_component id="oc-af">
+      <object_component id="oc-ae">
          <name>.cinit:_Page2_Str</name>
          <load_address>0xb129</load_address>
          <run_address>0xb129</run_address>
@@ -1093,7 +1093,7 @@
          <size>0x22</size>
          <input_file_ref idref="fl-b"/>
       </object_component>
-      <object_component id="oc-10e">
+      <object_component id="oc-10f">
          <name>.ebss:_Page0_Str</name>
          <uninitialized>true</uninitialized>
          <run_address>0xb646</run_address>
@@ -1107,7 +1107,7 @@
          <size>0x32</size>
          <input_file_ref idref="fl-b"/>
       </object_component>
-      <object_component id="oc-10f">
+      <object_component id="oc-10e">
          <name>.ebss:_Page2_Str</name>
          <uninitialized>true</uninitialized>
          <run_address>0xb844</run_address>
@@ -2468,11 +2468,11 @@
             <object_component_ref idref="oc-b0"/>
             <object_component_ref idref="oc-132"/>
             <object_component_ref idref="oc-b2"/>
-            <object_component_ref idref="oc-ae"/>
+            <object_component_ref idref="oc-af"/>
             <object_component_ref idref="oc-144"/>
             <object_component_ref idref="oc-ad"/>
             <object_component_ref idref="oc-146"/>
-            <object_component_ref idref="oc-af"/>
+            <object_component_ref idref="oc-ae"/>
             <object_component_ref idref="oc-148"/>
             <object_component_ref idref="oc-102"/>
             <object_component_ref idref="oc-139"/>
@@ -2552,9 +2552,9 @@
             <object_component_ref idref="oc-136"/>
             <object_component_ref idref="oc-101"/>
             <object_component_ref idref="oc-138"/>
-            <object_component_ref idref="oc-10e"/>
-            <object_component_ref idref="oc-10c"/>
             <object_component_ref idref="oc-10f"/>
+            <object_component_ref idref="oc-10c"/>
+            <object_component_ref idref="oc-10e"/>
             <object_component_ref idref="oc-143"/>
             <object_component_ref idref="oc-145"/>
             <object_component_ref idref="oc-147"/>
