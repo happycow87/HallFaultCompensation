@@ -60,7 +60,7 @@ PM_Sensorless.obj: ../dlog4ch-PM_Sensorless.h
 PM_Sensorless.obj: ../DRV8301_SPI.h
 PM_Sensorless.obj: ../filter.h
 PM_Sensorless.obj: ../dec_lut.h
-PM_Sensorless.obj: C:/Users/Randy/VivaHallFaultCompensation/HallBasedFOC/SCI/F28069_sci_monitor.h
+PM_Sensorless.obj: C:/Users/Randy/HallFaultCompensation/HallBasedFOC/SCI/F28069_sci_monitor.h
 PM_Sensorless.obj: ../spi_dac.h
 
 ../PM_Sensorless.c: 
@@ -123,5 +123,5 @@ C:/ti/controlSuite/development_kits/~SupportFiles/F2806x_headers/f2806xbmsk.h:
 ../DRV8301_SPI.h: 
 ../filter.h: 
 ../dec_lut.h: 
-C:/Users/Randy/VivaHallFaultCompensation/HallBasedFOC/SCI/F28069_sci_monitor.h: 
+C:/Users/Randy/HallFaultCompensation/HallBasedFOC/SCI/F28069_sci_monitor.h: 
 ../spi_dac.h: 

@@ -10,7 +10,7 @@ extern "C"{
 enum FaultTypes{Normal, H1, H2, H1H2, H3, H1H3, H2H3, All, Other};
 
 typedef struct{
-    Uint16 HallGpioAccepted;            // Input : Debounced logic level on ECAP/GPIO (Q0)
+    Uint16 HallGpioAccepted;            // Input : Debounced logic level on ECAP/GPIO (Q0).
     Uint16 HallGpioAcceptedLog[4];      // Variable : Debounced logic level log on ECAP/GPIO (Q0)
     enum FaultTypes FaultType;          // Output : Hall effect sensor fault type
     enum FaultTypes FaultTypePrev;      // Output : Previous Hall effect sensor fault type

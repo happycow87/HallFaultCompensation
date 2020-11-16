@@ -1309,7 +1309,7 @@ if(RunMotor){
 
       SPIDAC_write_dac_channel(0,Hall_thata_hat_offset*4095);
       SPIDAC_write_dac_channel(1,faultFlag*4095);
-      SPIDAC_write_dac_channel(2,(park1.Qs)*2048+2048);//(2,(park1.Qs*7)*2048+2048);//(2,Hall_speed_hat_lpf*4095);//
+      SPIDAC_write_dac_channel(2,Hall_speed_hat_lpf*4095);//(2,(park1.Qs)*2048+2048);//(2,(park1.Qs*7)*2048+2048);//
       SPIDAC_write_dac_channel(3,_IQtoQ15((float)FaultEmulationSignal_Accepted_transformation2/7));//(3,(pid1_iq.term.Ref)*2048+2048);//
 
       SPIDAC_update_all();
